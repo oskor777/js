@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="./stiyle.css">
+</head>
+
+<body>
+
+  <h2>Todo List</h2>
+
+  <input type="text" id="taskInput" placeholder="Yangi task yozing">
+  <button onclick="addTask()">Add</button>
+
+  <ul id="taskList">
+    <!-- Uchtalik boshlang'ich task -->
+    <li>
+      <span>1-task: Ertalab nonushta qilish</span>
+      <button class="editBtn">Edit</button>
+      <button class="deleteBtn">Delete</button>
+    </li>
+
+    <li>
+      <span>2-task: Dars qilish</span>
+      <button class="editBtn">Edit</button>
+      <button class="deleteBtn">Delete</button>
+    </li>
+
+    <li>
+      <span>3-task: Do‘konga borish</span>
+      <button class="editBtn">Edit</button>
+      <button class="deleteBtn">Delete</button>
+    </li>
+  </ul>
+
+  <script src="./scipt.js"></script>
+</body>
+
+</html>

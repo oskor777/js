@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #77729d;
+  color: #e70c0c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background: #1976d2;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0d47a1;
+}
+
+#taskList {
+  margin-top: 15px;
+}
+
+#taskList li {
+  margin: 10px 0;
+  list-style: disc;
+}
+
+#taskList button {
+  margin-left: 10px;
+  background: #444;
+}
+
+#taskList button:hover {
+  background: #111;
+}
